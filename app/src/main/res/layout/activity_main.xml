@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="io.github.anandyadav.expensemanager.MainActivity">
+
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/rupeesign"
+        android:id="@+id/imageView" />
+
+    <EditText
+        android:id="@+id/editTextPhoneNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="86dp"
+        android:ems="10"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:inputType="number"
+        android:textSize="28dp"
+        android:drawableLeft="@drawable/ic_phone" />
+        android:textAlignment="center"
+        />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:weightSum="2"
+        android:id="@+id/linearLayout">
+
+        <Button
+            android:id="@+id/getTextMessage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Send Verification code"
+            android:textColor="#ffffff"
+            android:background="@drawable/login_button"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/verify"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Verify"
+            android:textColor="#ffffff"
+            android:background="@drawable/verify_button"
+            android:layout_weight="1" />
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

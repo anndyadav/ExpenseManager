@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/list_ops"
+        android:icon="@drawable/googleg_standard_color_18"
+        android:title="@string/list_ops" />
+    <item android:id="@+id/graphs"
+        android:icon="@drawable/googleg_disabled_color_18"
+        android:title="@string/configuration" />
+    <item android:id="@+id/settings"
+        android:icon="@drawable/rupeegreen"
+        android:title="@string/configuration" />
+</menu>
